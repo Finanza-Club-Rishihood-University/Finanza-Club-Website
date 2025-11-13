@@ -2,48 +2,56 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md border-b border-gray-100">
-      <div className="container mx-auto px-6 py-4">
+    <nav className="bg-white shadow-sm border-b border-gray-200">
+      <div className="container mx-auto px-8 py-3">
         <div className="flex justify-between items-center">
-          {/* Logo / Title */}
-          <h1 className="font-heading text-2xl font-bold tracking-wide" style={{ color: '#C0003D' }}>Finanza Club</h1>
+          {/* Logo with border box */}
+          <div >
+            <h1 className="font-bold text-3xl tracking-tight" style={{ color: '#8B1538' }}>
+              Finanza Club 
+            </h1>
+          </div>
 
           {/* Navigation Links */}
-          <div className="flex gap-8 font-body text-sm font-medium">
-            <Link
-              to="/"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-              style={{ color: '#C0003D' }}
-            >
-              Home
-            </Link>
-            <Link
-              to="/about"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-              style={{ color: '#C0003D' }}
-            >
-              About
-            </Link>
+          <div className="flex items-center gap-10 font-medium text-base">
             <Link
               to="/events"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-              style={{ color: '#C0003D' }}
+              className="text-gray-800 hover:text-gray-600 transition-colors duration-200"
             >
               Events
             </Link>
             <Link
+              to="/newsletters"
+              className="text-gray-800 hover:text-gray-600 transition-colors duration-200"
+            >
+              Newsletters
+            </Link>
+            <Link
+              to="/"
+              className="text-gray-800 hover:text-gray-600 transition-colors duration-200"
+            >
+              Blogs
+            </Link>
+            <Link
               to="/members"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-              style={{ color: '#C0003D' }}
+              className="text-gray-800 hover:text-gray-600 transition-colors duration-200"
             >
               Members
             </Link>
             <Link
-              to="/newsletters"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-              style={{ color: '#C0003D' }}
+              to="/about"
+              className="text-gray-800 hover:text-gray-600 transition-colors duration-200"
             >
-              Newsletters
+              About
+            </Link>
+            
+            {/* Contact Us Button */}
+            <Link
+              to="/contact"
+              className="px-6 py-2 rounded-full text-white font-medium transition-all duration-200 hover:opacity-90"
+              style={{ backgroundColor: '#D2691E' }}
+            >
+              Contact us
             </Link>
           </div>
         </div>
