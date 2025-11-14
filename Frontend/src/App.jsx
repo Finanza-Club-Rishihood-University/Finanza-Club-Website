@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
 
-import Home from "./pages/home";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/footer";
+
+import Home from "./pages/Home/Home";
 import About from "./pages/about";
 import Events from "./pages/events";
 import Members from "./pages/members";
@@ -11,8 +12,8 @@ import Newsletters from "./pages/newsletters";
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <Navbar />
-      <main className="flex-grow">
+      <Header />
+      <main className="grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
