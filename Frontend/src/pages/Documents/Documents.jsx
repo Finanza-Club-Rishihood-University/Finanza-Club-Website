@@ -1,4 +1,4 @@
-export default function Newsletters() {
+export default function Documents() {
   const newsletters = [
     {
       title: "Quarterly Market Insights",

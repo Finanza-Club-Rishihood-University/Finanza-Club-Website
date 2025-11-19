@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/Footer";
 
 import Home from "./pages/Home/Home";
-import About from "./pages/about";
-import Events from "./pages/events";
-import Members from "./pages/members";
-import Newsletters from "./pages/newsletters";
+import About from "./pages/About/About";
+import Events from "./pages/Events/Events";
+import Members from "./pages/Members/Members";
+import Documents from "./pages/Documents/Documents";
 
 export default function App() {
   return (
@@ -19,7 +19,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/members" element={<Members />} />
-          <Route path="/newsletters" element={<Newsletters />} />
+          <Route path="/documents" element={<Documents />} />
         </Routes>
       </main>
       <Footer />

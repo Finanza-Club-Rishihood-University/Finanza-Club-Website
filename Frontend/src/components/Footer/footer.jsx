@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import { Instagram, Linkedin, Github, Youtube } from 'lucide-react';
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
@@ -19,40 +19,46 @@ export default function Footer() {
               Official Finance & Investment Club at Rishihood University
             </p>
             <div className="flex gap-4">
-              <a 
-                href="https://www.linkedin.com/company/finanza-club" 
-                target='_blank'
-                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300">
+              <a
+                href="https://www.linkedin.com/company/finanza-club"
+                target="_blank"
+                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300"
+              >
                 <FaLinkedin className="w-6 h-6" />
               </a>
-              <a 
-                href="https://www.youtube.com/@FinanzaClub" 
-                target='_blank'
-                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300">
+              <a
+                href="https://www.youtube.com/@FinanzaClub"
+                target="_blank"
+                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300"
+              >
                 <IoLogoYoutube className="w-6 h-6" />
               </a>
-              <a 
-                href="https://www.instagram.com/finanza.club/" 
-                target='_blank'
-                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300">
+              <a
+                href="https://www.instagram.com/finanza.club/"
+                target="_blank"
+                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300"
+              >
                 <FaInstagram className="w-6 h-6" />
               </a>
-              <a 
-                href="https://x.com/FinanzaClub" 
-                target='_blank'
-                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300">
+              <a
+                href="https://x.com/FinanzaClub"
+                target="_blank"
+                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300"
+              >
                 <FaTwitter className="w-6 h-6" />
               </a>
-              <a 
-                href="https://www.threads.com/@finanza.club" 
-                target='_blank'
-                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300">
+              <a
+                href="https://www.threads.com/@finanza.club"
+                target="_blank"
+                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300"
+              >
                 <FaThreads className="w-6 h-6" />
               </a>
-              <a 
-                href="https://github.com/Finanza-Club-Rishihood-University" 
-                target='_blank'
-                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300">
+              <a
+                href="https://github.com/Finanza-Club-Rishihood-University"
+                target="_blank"
+                className="social-icon text-white hover:text-[#C0003D] transition-all duration-300"
+              >
                 <FaGithub className="w-6 h-6" />
               </a>
             </div>
@@ -65,11 +71,31 @@ export default function Footer() {
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></div>
             </h3>
             <ul className="space-y-3 text-white text-sm">
-              <li><a href="#" className="hover:text-[#C0003D] transition-colors">Events</a></li>
-              <li><a href="#" className="hover:text-[#C0003D] transition-colors">Newsletters</a></li>
-              <li><a href="#" className="hover:text-[#C0003D] transition-colors">Blogs</a></li>
-              <li><a href="#" className="hover:text-[#C0003D] transition-colors">Members</a></li>
-              <li><a href="#" className="hover:text-[#C0003D] transition-colors">About</a></li>
+              <li>
+                <a href="#" className="hover:text-[#C0003D] transition-colors">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-[#C0003D] transition-colors">
+                  Newsletters
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-[#C0003D] transition-colors">
+                  Blogs
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-[#C0003D] transition-colors">
+                  Members
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-[#C0003D] transition-colors">
+                  About
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -80,14 +106,12 @@ export default function Footer() {
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></div>
             </h3>
             <div className="flex gap-2 mb-6">
-              <input 
-                type="email" 
-                placeholder="Email" 
+              <input
+                type="email"
+                placeholder="Email"
                 className="flex-1 px-4 py-2.5 rounded-md bg-white text-black text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#C0003D]"
               />
-              <button 
-                className="px-6 py-2.5 rounded-md bg-[#C0003D] text-white text-sm font-semibold hover:bg-[#a00033] transition-colors whitespace-nowrap"
-              >
+              <button className="px-6 py-2.5 rounded-md bg-[#C0003D] text-white text-sm font-semibold hover:bg-[#a00033] transition-colors whitespace-nowrap">
                 Contact now
               </button>
             </div>
@@ -96,23 +120,29 @@ export default function Footer() {
               <p>Delhi NCR, Sonipat,</p>
               <p>Haryana, India 131021</p>
               {/* <p className="mt-3">finanza@rishihood.edu.in</p> */}
-              <p className="mt-3"><a target='_blank' href="mailto:finanza@rishihood.edu.in" className="hover:text-[#C0003D] transition-colors">finanza@rishihood.edu.in</a></p>
+              <p className="mt-3">
+                <a
+                  target="_blank"
+                  href="mailto:finanza@rishihood.edu.in"
+                  className="hover:text-[#C0003D] transition-colors"
+                >
+                  finanza@rishihood.edu.in
+                </a>
+              </p>
             </div>
           </div>
         </div>
 
         {/* Large Finanza Image as Background - Hidden on Mobile */}
         <div className="hidden md:block ">
-          <img 
-            // src="../../public/FooterImg.png" 
+          <img
+            // src="../../public/FooterImg.png"
             src="/finanza-footer.png"
-            alt="Finanza Club, Rishihood University" 
+            alt="Finanza Club, Rishihood University"
             className="w-full h-auto object-fill "
             draggable="false"
           />
         </div>
-
-        
       </nav>
 
       {/* CSS Animations */}

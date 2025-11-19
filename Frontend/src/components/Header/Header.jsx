@@ -7,17 +7,20 @@ export default function Header() {
       <nav className="container mx-auto px-8 py-3">
         <div className="flex justify-between items-center">
           {/* Logo with border box */}
-          <div className="flex items-center gap-1">
+          <Link
+            to="/"
+            className="flex items-center gap-1"
+          >
             <img
               className="w-10 h-full" 
               src="./finanza-club-square-logo.png" 
               alt="Finanza Club" 
               draggable="false"
-            />
+              />
             <h1 className="font-bold text-3xl tracking-tight" style={{ color: '#8B1538' }}>
               Finanza Club 
             </h1>
-          </div>
+          </Link>
 
           {/* Navigation Links */}
           <div className="flex items-center gap-10 font-medium text-base">
@@ -28,17 +31,17 @@ export default function Header() {
               Events
             </Link>
             <Link
-              to="/newsletters"
+              to="/documents"
               className="text-gray-800 hover:text-[#C0003D] transition-colors duration-200"
             >
-              Newsletters
+              Documents
             </Link>
-            <Link
+            {/* <Link
               to="/"
               className="text-gray-800 hover:text-[#C0003D] transition-colors duration-200"
             >
               Blogs
-            </Link>
+            </Link> */}
             <Link
               to="/members"
               className="text-gray-800 hover:text-[#C0003D] transition-colors duration-200"
