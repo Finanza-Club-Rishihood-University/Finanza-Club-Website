@@ -17,7 +17,7 @@ export default function Header() {
     { name: "Home", path: "/" },
     { name: "Events", path: "/events" },
     { name: "Documents", path: "/documents" },
-    { name: "Blogs", path: "/blogs" }, // Assuming /blogs route exists or will exist
+    // { name: "Blogs", path: "/blogs" }, will exist
     { name: "Members", path: "/members" },
   ];
 
@@ -38,8 +38,8 @@ export default function Header() {
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-white font-bold text-xl leading-none tracking-wide drop-shadow-md">Finanza</span>
-            <span className="text-white font-medium text-lg leading-none tracking-wide drop-shadow-md">Club</span>
+            <span className="text-[#C0003D] font-bold text-xl leading-none tracking-wide drop-shadow-md">Finanza</span>
+            <span className="text-[#C0003D] font-medium text-lg leading-none tracking-wide drop-shadow-md">Club</span>
           </div>
         </Link>
 
